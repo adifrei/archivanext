@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:h2:file:./target/h2db/db/archiva;DB_CLOSE_DELAY=-1
+    username: archiva
+    password:
+    hikari:
+      poolName: Hikari
+      auto-commit: false
