@@ -33,3 +33,7 @@ build/
 .vscode/
 /.mvn/wrapper/maven-wrapper.jar
 /.mvn/wrapper/maven-wrapper.properties
+
+
+### OSX ###
+.DS_Store
